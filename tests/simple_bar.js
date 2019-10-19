@@ -4,7 +4,7 @@
 var height = 500;
 var width = 500;
 var gid = "simplebar"
-var data;
+var data = iris;
 
 // graph settings
 // https://bl.ocks.org/mbostock/3019563
@@ -19,3 +19,4 @@ var svg = d3.select("#"+"simplebar").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
+console.log(iris)
